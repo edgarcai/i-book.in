@@ -7,15 +7,30 @@ TG群组：[i-Book.in 讨论组](https://t.me/i_book_in)
 
 这是一个对IPFS资源进行索引的搜索引擎，后端为 Flask + Elasticsearch + nginx ，因为我前端很菜，所以直接扒皮 lookao 的。 
 
-i-Book.in 所有的Qmhash均源自无数热心网友的分享，所以我们也不会雪藏，我们会不定期在此分享 i-Book.in 索引的全部Qmhash(Qmhash文件夹内)，暂定每月更新一次。
+i-Book.in 所有的Qmhash均源自无数热心网友的分享，所以我们也不会雪藏，我们会不定期在此分享 i-Book.in 索引的全部Qmhash(Qmhash文件夹内)，暂定每月更新一次（4月份的已上传）。
 
 后端源码暂时还不开源，因为还有些问题没有解决（
 
 关于IPFS网络的更多信息你可以到 [ipfs.io](https://ipfs.io) 了解。
 
-## share
 
-如果你有资源想要分享，你可以尝试自己将文件上传到IFPS`(或到群组内咨询其他大佬)`，并且获取Qmhash，在TG群组内分享即可，我们会不定期整理添加到  i-Book.in 。
+## 工具包
+
+### PIN tools
+
+目前i-Book.in的索引指向的资源数据大约为1.9TB，由无数热心网友齐心协力pin在IPFS网络上。但随着使用的人越来越多，并且毫无顾忌地使用迅雷等其他多线程工具，数据的传输变得越来越慢。
+
+如果你愿意帮助大家，为本项目贡献自己的一份力量，将数据扩散的更广(这将占用你的部分储存空间和宽带)，那么你可以下载该脚本，协助PIN文件。你pin住的文件将会加速你和其他人从IPFS网络获取数据的速度，理论上是内网宽带的上限。
+
+为了方便大家pin，我们将其分割成19个大约100GB的hash list，储存在GitHub。本工具可以快速pin list文件。
+
+或者你只是想要屯书，也可以使用本工具获取 i-Book.in 索引的全部资源。
+
+使用说明 ：[PIN tools](https://github.com/SaltyLeo/i-book.in/blob/master/PINtools/README.md)
+
+## 分享
+
+如果你有资源想要分享，你可以尝试自己将文件上传到IPPS网络`(或到群组内咨询其他大佬)`，并且获取Qmhash，在TG群组内分享即可，我们会不定期整理添加到  i-Book.in 。
 
 ## 版权
 
